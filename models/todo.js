@@ -15,6 +15,9 @@ const toDoSchema = new mongoose.Schema(
         },
         notes :{
             type: String
+        },
+        location : {
+            type: String
         }
     })
 
